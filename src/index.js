@@ -2,13 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-let city = {
-  name: "London",
-  country: "UK"
+function Hello() {
+
+  return (
+    <div>
+      <h1> Welcome to React !</h1>
+      <p>Lets build something cool.</p>
+    </div>
+  );
 }
+
 ReactDOM.render(
-  <h1 id="heading" className="cool-text"> {city.name} is in the {city.country}</h1>
-  , document.getElementById('root')
+  <Hello />, document.getElementById('root')
 );
 
 

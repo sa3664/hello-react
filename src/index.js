@@ -7,7 +7,7 @@ let city = {
   country: "UK"
 }
 ReactDOM.render(
-  <h1> {city.name} is in {city.country}</h1>
+  <h1 id="heading" className="cool-text"> {city.name} is in the {city.country}</h1>
   , document.getElementById('root')
 );
 

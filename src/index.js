@@ -11,7 +11,7 @@ function App() {
       <div>
         <h1>{year}</h1>
         <button onClick={() => setYear(year + 1)}>
-          New Year!
+          New Year Eve!
         </button>
       </div>
       <div>
